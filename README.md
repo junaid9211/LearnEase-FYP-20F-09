@@ -9,11 +9,15 @@ Learn Ease is a digital platform that serves as a smart study space to boost lea
 #### 1. set up backend
 Run the following commands to run the backend
 1. `cd backend`
-2 `pip install -r requirements.txt`
-3 `python app.py`
+2. `pip install -r requirements.txt`
+3. `python app.py`
 
 #### 2. set up frontend
 Run the following commands to run the frontend
 1. `cd frontend` 
 2. `npm install` 
 3. `npm start` 
+
+
+Now the project should start on localhost:3000
+
