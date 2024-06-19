@@ -1,0 +1,60 @@
+{
+    "problem_list": [
+        {
+            "question": "What design pattern is used to ensure a class has only one instance and provides a global point of access to that instance?",
+            "correct_answer": "Singleton",
+            "incorrect_answer1": "Factory",
+            "incorrect_answer2": "Prototype",
+            "incorrect_answer3": "Builder"
+        },
+        {
+            "question": "Which design pattern allows objects to communicate without knowing each other's classes?",
+            "correct_answer": "Mediator",
+            "incorrect_answer1": "Observer",
+            "incorrect_answer2": "Chain of Responsibility",
+            "incorrect_answer3": "Visitor"
+        },
+        {
+            "question": "What design pattern is used to define a family of algorithms, encapsulate each one, and make them interchangeable?",
+            "correct_answer": "Strategy",
+            "incorrect_answer1": "Decorator",
+            "incorrect_answer2": "Command",
+            "incorrect_answer3": "Template Method"
+        },
+        {
+            "question": "Which design pattern is used to separate object construction from its representation?",
+            "correct_answer": "Builder",
+            "incorrect_answer1": "Abstract Factory",
+            "incorrect_answer2": "Prototype",
+            "incorrect_answer3": "Singleton"
+        },
+        {
+            "question": "What design pattern is used to provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation?",
+            "correct_answer": "Iterator",
+            "incorrect_answer1": "Visitor",
+            "incorrect_answer2": "Proxy",
+            "incorrect_answer3": "Composite"
+        },
+        {
+            "question": "Which design pattern is used to define the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure?",
+            "correct_answer": "Template Method",
+            "incorrect_answer1": "Strategy",
+            "incorrect_answer2": "Observer",
+            "incorrect_answer3": "State"
+        },
+        {
+            "question": "What design pattern is used to dynamically change the behavior of an object at runtime without changing its class?",
+            "correct_answer": "State",
+            "incorrect_answer1": "Command",
+            "incorrect_answer2": "Memento",
+            "incorrect_answer3": "Iterator"
+        },
+        {
+            "question": "Which design pattern is used to encapsulate a request as an object, thereby allowing for parameterization of clients with different requests, queuing of requests, and logging of requests?",
+            "correct_answer": "Command",
+            "incorrect_answer1": "Proxy",
+            "incorrect_answer2": "Adapter",
+            "incorrect_answer3": "Facade"
+        }
+    ]
+}

@@ -1,0 +1,188 @@
+{
+    "week_list": [
+        {
+            "day_list": [
+                {
+                    "day_name": "Monday",
+                    "study_hours": "3",
+                    "topics_to_cover": [
+                        {
+                            "topic_name": "Lexical Analysis",
+                            "description": "Tokenization of source code"
+                        },
+                        {
+                            "topic_name": "Regular Expressions",
+                            "description": "Patterns used for token recognition"
+                        }
+                    ]
+                },
+                {
+                    "day_name": "Friday",
+                    "study_hours": "2",
+                    "topics_to_cover": [
+                        {
+                            "topic_name": "Syntax Analysis",
+                            "description": "Parsing of source code"
+                        },
+                        {
+                            "topic_name": "Context-Free Grammars",
+                            "description": "Formal grammar used for parsing"
+                        }
+                    ]
+                },
+                {
+                    "day_name": "Sunday",
+                    "study_hours": "3",
+                    "topics_to_cover": [
+                        {
+                            "topic_name": "Semantic Analysis",
+                            "description": "Interpretation and type checking"
+                        },
+                        {
+                            "topic_name": "Symbol Tables",
+                            "description": "Data structure for storing identifiers"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "day_list": [
+                {
+                    "day_name": "Monday",
+                    "study_hours": "3",
+                    "topics_to_cover": [
+                        {
+                            "topic_name": "Syntax-Directed Translation",
+                            "description": "Translation driven by grammar rules"
+                        },
+                        {
+                            "topic_name": "Intermediate Code Generation",
+                            "description": "Representation of source code"
+                        }
+                    ]
+                },
+                {
+                    "day_name": "Friday",
+                    "study_hours": "3",
+                    "topics_to_cover": [
+                        {
+                            "topic_name": "Code Optimization",
+                            "description": "Improving efficiency of generated code"
+                        },
+                        {
+                            "topic_name": "Code Generation",
+                            "description": "Translation to target machine code"
+                        }
+                    ]
+                },
+                {
+                    "day_name": "Sunday",
+                    "study_hours": "3",
+                    "topics_to_cover": [
+                        {
+                            "topic_name": "Debugging Techniques",
+                            "description": "Methods for identifying and fixing errors"
+                        },
+                        {
+                            "topic_name": "Software Tools",
+                            "description": "Utilities for compiler construction"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "day_list": [
+                {
+                    "day_name": "Monday",
+                    "study_hours": "3",
+                    "topics_to_cover": [
+                        {
+                            "topic_name": "Language Frontend",
+                            "description": "Interface between source code and compiler"
+                        },
+                        {
+                            "topic_name": "Language Backend",
+                            "description": "Interface between compiler and target machine"
+                        }
+                    ]
+                },
+                {
+                    "day_name": "Friday",
+                    "study_hours": "3",
+                    "topics_to_cover": [
+                        {
+                            "topic_name": "Compiler Testing",
+                            "description": "Techniques for testing compiler components"
+                        },
+                        {
+                            "topic_name": "Performance Analysis",
+                            "description": "Evaluation of compiler efficiency"
+                        }
+                    ]
+                },
+                {
+                    "day_name": "Sunday",
+                    "study_hours": "3",
+                    "topics_to_cover": [
+                        {
+                            "topic_name": "Project Work",
+                            "description": "Implementing a small compiler project"
+                        },
+                        {
+                            "topic_name": "Review and Recap",
+                            "description": "Summarizing key concepts learned"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "day_list": [
+                {
+                    "day_name": "Monday",
+                    "study_hours": "3",
+                    "topics_to_cover": [
+                        {
+                            "topic_name": "Compiler Frontend",
+                            "description": "Front-end components of a compiler"
+                        },
+                        {
+                            "topic_name": "Compiler Backend",
+                            "description": "Back-end components of a compiler"
+                        }
+                    ]
+                },
+                {
+                    "day_name": "Friday",
+                    "study_hours": "3",
+                    "topics_to_cover": [
+                        {
+                            "topic_name": "Compiler Architecture",
+                            "description": "Design and structure of a compiler"
+                        },
+                        {
+                            "topic_name": "Compiler Extensions",
+                            "description": "Additional features and optimizations"
+                        }
+                    ]
+                },
+                {
+                    "day_name": "Sunday",
+                    "study_hours": "3",
+                    "topics_to_cover": [
+                        {
+                            "topic_name": "Final Project Work",
+                            "description": "Completion and presentation of compiler project"
+                        },
+                        {
+                            "topic_name": "Final Review",
+                            "description": "Comprehensive review of compiler construction"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

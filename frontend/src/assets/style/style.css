@@ -1,0 +1,396 @@
+.from_container{
+    width: 35%;
+    
+}
+@media screen and (max-width:1000px){
+.from_container{
+  width:45%}    
+}
+
+
+/* html, body {
+  overflow: hidden;
+  height: 100%;
+ 
+} */
+
+@media screen and (max-width:700px){
+    .from_container{
+        width:65%}    
+    }
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      
+      .animated-text {
+        animation: fadeIn 2.5s ease-out;
+      }
+    /* styles.css */
+
+/* Add styles for the search icon */
+.searchBar {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.searchBar input[type="text"] {
+  padding: 8px;
+  width: 200px; /* Adjust width as needed */
+  border: 0px solid #f8f5f5;
+  border-radius: 4px;
+  outline: none;
+}
+
+#fav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(11, 1, 1);
+  background: transparent;
+  padding: 10px;
+  width: 25rem;
+  margin: 5px auto;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(188, 183, 183);
+}
+.favChats{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5px;
+  
+}
+.bot{
+  background-color: rgb(198, 201, 198);
+  width: fit-content;
+  
+}
+
+#tone {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Add this line to horizontally center the content */
+  color: rgba(222, 222, 222, 1);
+  background: transparent;
+  padding: 5px;
+  width: 10rem;
+  margin: 5px auto;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(98 ,98 ,98,1);
+  margin: 5px;
+}
+.botTone{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 5px;
+  
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.upload-input {
+  display: none;
+}
+
+.custom-upload-button {
+  background-color: #08db62;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+
+
+
+.flashcards-container {
+  max-height: 400px; /* Adjust the height as needed */
+  height: 400px; /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+/* For WebKit-based browsers */
+.flashcards-container::-webkit-scrollbar {
+  margin-left: 15px;
+  width: 10px; /* Width of the scrollbar */
+}
+
+.flashcards-container::-webkit-scrollbar-thumb {
+  background-color: #666; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Radius of the scrollbar thumb */
+}
+
+/* For Firefox */
+.flashcards-container {
+  scrollbar-width: thin; /* Width of the scrollbar */
+  scrollbar-color: #666 #333; /* Color of the scrollbar thumb and track */
+}
+
+
+.summary-container {
+  max-height: 250px; /* Adjust the height as needed */
+  height: 250px; /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+/* For WebKit-based browsers */
+.summary-container::-webkit-scrollbar {
+  margin-left: 15px;
+  width: 10px; /* Width of the scrollbar */
+}
+
+.summary-container::-webkit-scrollbar-thumb {
+  background-color: #666; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Radius of the scrollbar thumb */
+}
+
+/* For Firefox */
+.summary-container {
+  scrollbar-width: thin; /* Width of the scrollbar */
+  scrollbar-color: #666 #333; /* Color of the scrollbar thumb and track */
+}
+
+
+
+.search-container {
+  max-height: 700px; /* Adjust the height as needed */
+  overflow-y: auto;
+  
+}
+
+.message-container {
+  max-height: 630px; /* Adjust the height as needed */
+  height: 630px; /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+/* For WebKit-based browsers */
+.message-container::-webkit-scrollbar {
+  margin-left: 15px;
+  width: 10px; /* Width of the scrollbar */
+}
+
+.message-container::-webkit-scrollbar-thumb {
+  background-color: #08db62; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Radius of the scrollbar thumb */
+}
+
+/* For Firefox */
+.message-container {
+  scrollbar-width: thin; /* Width of the scrollbar */
+  scrollbar-color: #3fee89 #e7e4e4; /* Color of the scrollbar thumb and track */
+}
+
+
+
+.result-container {
+  max-height: 1030px; /* Adjust the height as needed */
+  height: 1030px; /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+/* For WebKit-based browsers */
+.result-container::-webkit-scrollbar {
+  margin-left: 15px;
+  width: 10px; /* Width of the scrollbar */
+}
+
+.result-container::-webkit-scrollbar-thumb {
+  background-color: #08db62; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Radius of the scrollbar thumb */
+}
+
+/* For Firefox */
+.result-container {
+  scrollbar-width: thin; /* Width of the scrollbar */
+  scrollbar-color: #3fee89 #e7e4e4; /* Color of the scrollbar thumb and track */
+}
+
+
+
+
+
+
+.icon-option {
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+
+.summary-item {
+  cursor: pointer;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-main {
+  position: relative;
+  background: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Define fade-in animation */
+    @keyframes fadeIn {
+      from {
+        opacity: 0; /* Start with 0 opacity */
+      }
+      to {
+        opacity: 1; /* End with 1 opacity */
+      }
+    }
+
+    /* Apply fade-in animation to element */
+    .fade-in-element {
+      animation: fadeIn 1s ease-in-out; /* Use the fadeIn animation for 1 second with ease-in-out timing */
+    }
+
+.from_container{
+    width: 35%;
+    
+}
+@media screen and (max-width:1000px){
+.from_container{
+    width:45%}    
+}
+/* html, body {
+  overflow: hidden;
+  height: 100%;
+ 
+} */
+
+@media screen and (max-width:700px){
+    .from_container{
+        width:65%}    
+    }
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      
+      .animated-text {
+        animation: fadeIn 2.5s ease-out;
+      }
+    /* styles.css */
+
+/* Add styles for the search icon */
+.searchBar {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.searchBar input[type="text"] {
+  padding: 8px;
+  width: 200px; /* Adjust width as needed */
+  border: 0px solid #f8f5f5;
+  border-radius: 4px;
+  outline: none;
+}
+
+#fav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(11, 1, 1);
+  background: transparent;
+  padding: 10px;
+  width: 25rem;
+  margin: 5px auto;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(188, 183, 183);
+}
+.favChats{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5px;
+  
+}
+.bot{
+  background-color: rgb(198, 201, 198);
+  width: fit-content;
+  
+}
+
+#tone {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Add this line to horizontally center the content */
+  color: rgba(222, 222, 222, 1);
+  background: transparent;
+  padding: 5px;
+  width: 10rem;
+  margin: 5px auto;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(98 ,98 ,98,1);
+  margin: 5px;
+}
+.botTone{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 5px;
+  
+}
+
+.upload-input {
+    color: #05192D !important;
+    border-color: #03EF62;
+    border-radius: 14px;
+    font-size: 15px;
+    text-decoration: underline !important;
+    -webkit-text-decoration-color: #03EF62 !important;
+    text-decoration-color: #03EF62 !important;
+    background-color: #03EF62;
+
+}

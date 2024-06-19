@@ -1,0 +1,13 @@
+backend/.idea
+__pycache__
+testing.ipynb
+files
+instance
+.env
+notes.md
+covers
+uploads
+frontend/node_modules
+backend/calendar-credentials.json
+backend/token.json
+frontend/.idea
